@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.navbar{
+
+    margin-top: 5%;
+    position: relative;
+    
+}
+
+ul{
+    margin: 3% auto;
+    width: 65%;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 5px;
+    box-shadow: 0 25px 35px rgba(0,0,0,0.1);
+}
+
+a:hover{
+    font-weight: 600;
+}
+
+.mainbox{
+    position: relative;
+    margin-top: 5%;
+
+}
+
+.converter{
+
+    display: block;
+    position: relative;
+    
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0 25px 35px rgba(0,0,0,0.1);
+}
+
+.inputdiv{
+    padding: 0 20px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#input,#result{
+
+    padding: 10px;
+    font-size: 20px;
+    margin: 0 auto;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 2px;
+
+}
+
+#inputType,#resultType{
+    width: 200px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .inputdiv{
+        padding: 0 20px;
+        margin: 2px auto;
+        display: block;
+    }
+
+    #input,#result{
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    #inputType,#resultType{
+        width: 200px;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .inputdiv{
+        padding: 0 20px;
+        margin: 2px auto;
+        display: block;
+    }
+
+    #input,#result{
+        width: 160px;
+        margin: 0 auto;
+    }
+
+    #inputType,#resultType{
+        width: 160px;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+}
